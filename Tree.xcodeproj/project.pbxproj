@@ -7,23 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D1D653124AB100000B5A493 /* AVLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1D653024AB100000B5A493 /* AVLNode.swift */; };
+		9D1D653324AB1B6B00B5A493 /* AVLTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1D653224AB1B6B00B5A493 /* AVLTree.swift */; };
 		9DCF359124A1E8E000BD581D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCF359024A1E8E000BD581D /* AppDelegate.swift */; };
-		9DCF359324A1E8E000BD581D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCF359224A1E8E000BD581D /* SceneDelegate.swift */; };
 		9DCF359524A1E8E000BD581D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCF359424A1E8E000BD581D /* ViewController.swift */; };
 		9DCF359824A1E8E000BD581D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DCF359624A1E8E000BD581D /* Main.storyboard */; };
 		9DCF359A24A1E8E400BD581D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DCF359924A1E8E400BD581D /* Assets.xcassets */; };
 		9DCF359D24A1E8E400BD581D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DCF359B24A1E8E400BD581D /* LaunchScreen.storyboard */; };
+		9DCF35A624A1E95700BD581D /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCF35A524A1E95700BD581D /* Trie.swift */; };
+		9DCF35A924A1EBCA00BD581D /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCF35A824A1EBCA00BD581D /* Tree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D1D653024AB100000B5A493 /* AVLNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLNode.swift; sourceTree = "<group>"; };
+		9D1D653224AB1B6B00B5A493 /* AVLTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLTree.swift; sourceTree = "<group>"; };
+		9D630EE824AC3807000C6DDF /* BinaryTree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BinaryTree.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9DCF358D24A1E8E000BD581D /* Tree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DCF359024A1E8E000BD581D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9DCF359224A1E8E000BD581D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9DCF359424A1E8E000BD581D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9DCF359724A1E8E000BD581D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DCF359924A1E8E400BD581D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DCF359C24A1E8E400BD581D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DCF359E24A1E8E400BD581D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DCF35A524A1E95700BD581D /* Trie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
+		9DCF35A824A1EBCA00BD581D /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +44,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D1D652F24AB0FEE00B5A493 /* AVL */ = {
+			isa = PBXGroup;
+			children = (
+				9D1D653024AB100000B5A493 /* AVLNode.swift */,
+				9D1D653224AB1B6B00B5A493 /* AVLTree.swift */,
+			);
+			path = AVL;
+			sourceTree = "<group>";
+		};
+		9D630EE524AC329E000C6DDF /* BinaryTree */ = {
+			isa = PBXGroup;
+			children = (
+				9D630EE824AC3807000C6DDF /* BinaryTree.playground */,
+			);
+			path = BinaryTree;
+			sourceTree = "<group>";
+		};
 		9DCF358424A1E8E000BD581D = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +80,32 @@
 		9DCF358F24A1E8E000BD581D /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				9D630EE524AC329E000C6DDF /* BinaryTree */,
+				9D1D652F24AB0FEE00B5A493 /* AVL */,
+				9DCF35A724A1EBBA00BD581D /* Tree */,
+				9DCF35A424A1E94300BD581D /* Trie */,
 				9DCF359024A1E8E000BD581D /* AppDelegate.swift */,
-				9DCF359224A1E8E000BD581D /* SceneDelegate.swift */,
 				9DCF359424A1E8E000BD581D /* ViewController.swift */,
 				9DCF359624A1E8E000BD581D /* Main.storyboard */,
 				9DCF359924A1E8E400BD581D /* Assets.xcassets */,
 				9DCF359B24A1E8E400BD581D /* LaunchScreen.storyboard */,
 				9DCF359E24A1E8E400BD581D /* Info.plist */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+		9DCF35A424A1E94300BD581D /* Trie */ = {
+			isa = PBXGroup;
+			children = (
+				9DCF35A524A1E95700BD581D /* Trie.swift */,
+			);
+			path = Trie;
+			sourceTree = "<group>";
+		};
+		9DCF35A724A1EBBA00BD581D /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				9DCF35A824A1EBCA00BD581D /* Tree.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -138,9 +181,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DCF35A624A1E95700BD581D /* Trie.swift in Sources */,
+				9DCF35A924A1EBCA00BD581D /* Tree.swift in Sources */,
 				9DCF359524A1E8E000BD581D /* ViewController.swift in Sources */,
+				9D1D653324AB1B6B00B5A493 /* AVLTree.swift in Sources */,
 				9DCF359124A1E8E000BD581D /* AppDelegate.swift in Sources */,
-				9DCF359324A1E8E000BD581D /* SceneDelegate.swift in Sources */,
+				9D1D653124AB100000B5A493 /* AVLNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +262,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +316,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
