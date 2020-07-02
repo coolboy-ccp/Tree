@@ -19,9 +19,7 @@ public indirect enum BinaryTree<T> {
         case .empty:
             return 0
         }
-    }
-    
-     
+    }    
 }
 
 extension BinaryTree: CustomStringConvertible {

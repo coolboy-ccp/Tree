@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D1D653124AB100000B5A493 /* AVLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1D653024AB100000B5A493 /* AVLNode.swift */; };
-		9D1D653324AB1B6B00B5A493 /* AVLTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1D653224AB1B6B00B5A493 /* AVLTree.swift */; };
 		9DCF359124A1E8E000BD581D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCF359024A1E8E000BD581D /* AppDelegate.swift */; };
 		9DCF359524A1E8E000BD581D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCF359424A1E8E000BD581D /* ViewController.swift */; };
 		9DCF359824A1E8E000BD581D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DCF359624A1E8E000BD581D /* Main.storyboard */; };
@@ -19,8 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9D1D653024AB100000B5A493 /* AVLNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLNode.swift; sourceTree = "<group>"; };
-		9D1D653224AB1B6B00B5A493 /* AVLTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLTree.swift; sourceTree = "<group>"; };
+		9D4C041E24AD85AF006F78C7 /* AVLTree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AVLTree.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9D630EE824AC3807000C6DDF /* BinaryTree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BinaryTree.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9DCF358D24A1E8E000BD581D /* Tree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DCF359024A1E8E000BD581D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,8 +44,7 @@
 		9D1D652F24AB0FEE00B5A493 /* AVL */ = {
 			isa = PBXGroup;
 			children = (
-				9D1D653024AB100000B5A493 /* AVLNode.swift */,
-				9D1D653224AB1B6B00B5A493 /* AVLTree.swift */,
+				9D4C041E24AD85AF006F78C7 /* AVLTree.playground */,
 			);
 			path = AVL;
 			sourceTree = "<group>";
@@ -184,9 +180,7 @@
 				9DCF35A624A1E95700BD581D /* Trie.swift in Sources */,
 				9DCF35A924A1EBCA00BD581D /* Tree.swift in Sources */,
 				9DCF359524A1E8E000BD581D /* ViewController.swift in Sources */,
-				9D1D653324AB1B6B00B5A493 /* AVLTree.swift in Sources */,
 				9DCF359124A1E8E000BD581D /* AppDelegate.swift in Sources */,
-				9D1D653124AB100000B5A493 /* AVLNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
