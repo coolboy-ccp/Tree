@@ -78,7 +78,6 @@ extension WordTrie {
         node.isTerminated = true
     }
     
-    
     func contains(word: String) -> Bool {
         if word.isEmpty { return false }
         var currentNode = root

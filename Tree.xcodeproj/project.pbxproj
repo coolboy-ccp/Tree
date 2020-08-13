@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D4C042124AD8CDF006F78C7 /* AVLTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C041F24AD8CDF006F78C7 /* AVLTree.swift */; };
+		9D4C042224AD8CDF006F78C7 /* AVLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C042024AD8CDF006F78C7 /* AVLNode.swift */; };
+		9D50A60B24E2877200951747 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D50A60A24E2877200951747 /* BinarySearch.swift */; };
+		9D50A60E24E28FA500951747 /* RedBlackTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D50A60D24E28FA500951747 /* RedBlackTree.swift */; };
+		9DBC126524E39414005B77BE /* RedBlackNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBC126424E39414005B77BE /* RedBlackNode.swift */; };
 		9DCF359124A1E8E000BD581D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCF359024A1E8E000BD581D /* AppDelegate.swift */; };
 		9DCF359524A1E8E000BD581D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCF359424A1E8E000BD581D /* ViewController.swift */; };
 		9DCF359824A1E8E000BD581D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DCF359624A1E8E000BD581D /* Main.storyboard */; };
@@ -18,7 +23,12 @@
 
 /* Begin PBXFileReference section */
 		9D4C041E24AD85AF006F78C7 /* AVLTree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AVLTree.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9D4C041F24AD8CDF006F78C7 /* AVLTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVLTree.swift; sourceTree = "<group>"; };
+		9D4C042024AD8CDF006F78C7 /* AVLNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVLNode.swift; sourceTree = "<group>"; };
+		9D50A60A24E2877200951747 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
+		9D50A60D24E28FA500951747 /* RedBlackTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBlackTree.swift; sourceTree = "<group>"; };
 		9D630EE824AC3807000C6DDF /* BinaryTree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BinaryTree.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9DBC126424E39414005B77BE /* RedBlackNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBlackNode.swift; sourceTree = "<group>"; };
 		9DCF358D24A1E8E000BD581D /* Tree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DCF359024A1E8E000BD581D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DCF359424A1E8E000BD581D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,9 +54,28 @@
 		9D1D652F24AB0FEE00B5A493 /* AVL */ = {
 			isa = PBXGroup;
 			children = (
+				9D4C042024AD8CDF006F78C7 /* AVLNode.swift */,
+				9D4C041F24AD8CDF006F78C7 /* AVLTree.swift */,
 				9D4C041E24AD85AF006F78C7 /* AVLTree.playground */,
 			);
 			path = AVL;
+			sourceTree = "<group>";
+		};
+		9D50A60924E248C800951747 /* RedBlackTree */ = {
+			isa = PBXGroup;
+			children = (
+				9D50A60D24E28FA500951747 /* RedBlackTree.swift */,
+				9DBC126424E39414005B77BE /* RedBlackNode.swift */,
+			);
+			path = RedBlackTree;
+			sourceTree = "<group>";
+		};
+		9D50A60C24E28F7500951747 /* BinarySearchTree */ = {
+			isa = PBXGroup;
+			children = (
+				9D50A60A24E2877200951747 /* BinarySearch.swift */,
+			);
+			path = BinarySearchTree;
 			sourceTree = "<group>";
 		};
 		9D630EE524AC329E000C6DDF /* BinaryTree */ = {
@@ -55,6 +84,13 @@
 				9D630EE824AC3807000C6DDF /* BinaryTree.playground */,
 			);
 			path = BinaryTree;
+			sourceTree = "<group>";
+		};
+		9DBC126624E3CD22005B77BE /* UnionFind */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UnionFind;
 			sourceTree = "<group>";
 		};
 		9DCF358424A1E8E000BD581D = {
@@ -76,6 +112,9 @@
 		9DCF358F24A1E8E000BD581D /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				9DBC126624E3CD22005B77BE /* UnionFind */,
+				9D50A60C24E28F7500951747 /* BinarySearchTree */,
+				9D50A60924E248C800951747 /* RedBlackTree */,
 				9D630EE524AC329E000C6DDF /* BinaryTree */,
 				9D1D652F24AB0FEE00B5A493 /* AVL */,
 				9DCF35A724A1EBBA00BD581D /* Tree */,
@@ -180,7 +219,12 @@
 				9DCF35A624A1E95700BD581D /* Trie.swift in Sources */,
 				9DCF35A924A1EBCA00BD581D /* Tree.swift in Sources */,
 				9DCF359524A1E8E000BD581D /* ViewController.swift in Sources */,
+				9D4C042224AD8CDF006F78C7 /* AVLNode.swift in Sources */,
+				9D50A60B24E2877200951747 /* BinarySearch.swift in Sources */,
+				9DBC126524E39414005B77BE /* RedBlackNode.swift in Sources */,
+				9D50A60E24E28FA500951747 /* RedBlackTree.swift in Sources */,
 				9DCF359124A1E8E000BD581D /* AppDelegate.swift in Sources */,
+				9D4C042124AD8CDF006F78C7 /* AVLTree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

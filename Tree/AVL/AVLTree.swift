@@ -109,11 +109,27 @@ extension AVLTree {
         else {
             parent.right = nil
         }
-        parent.balance()
+        if parent.isLeaf {
+            parent.height -= 1
+            parent.parent?.balance()
+        }
+        
     }
     
     private func deleteStem(node: Node) {
-        
+        let replace = replaceNode(node: node)
+        if replace !== node {
+            node.key = replace.key
+            node.value = replace.value
+            delete(node: replace)
+        }
+    }
+    
+    private func replaceNode(node: Node) -> Node {
+        if let left = node.left?.max() {
+            return left
+        }
+        return (node.right?.min())!
     }
 }
 
