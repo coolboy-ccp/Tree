@@ -7,10 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D1FDDC124E51BF100F8E19E /* UFUnion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1FDDC024E51BF100F8E19E /* UFUnion.swift */; };
+		9D1FDDC324E528AD00F8E19E /* UFWeightFind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1FDDC224E528AD00F8E19E /* UFWeightFind.swift */; };
+		9D1FDDC524E52E7D00F8E19E /* UFWeightUnion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1FDDC424E52E7D00F8E19E /* UFWeightUnion.swift */; };
+		9D1FDDC724E531D200F8E19E /* UFWeightCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1FDDC624E531D200F8E19E /* UFWeightCompression.swift */; };
 		9D4C042124AD8CDF006F78C7 /* AVLTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C041F24AD8CDF006F78C7 /* AVLTree.swift */; };
 		9D4C042224AD8CDF006F78C7 /* AVLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C042024AD8CDF006F78C7 /* AVLNode.swift */; };
 		9D50A60B24E2877200951747 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D50A60A24E2877200951747 /* BinarySearch.swift */; };
 		9D50A60E24E28FA500951747 /* RedBlackTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D50A60D24E28FA500951747 /* RedBlackTree.swift */; };
+		9D5B823C24E5100500D9F64A /* UFFind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B823B24E5100500D9F64A /* UFFind.swift */; };
 		9DBC126524E39414005B77BE /* RedBlackNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBC126424E39414005B77BE /* RedBlackNode.swift */; };
 		9DCF359124A1E8E000BD581D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCF359024A1E8E000BD581D /* AppDelegate.swift */; };
 		9DCF359524A1E8E000BD581D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCF359424A1E8E000BD581D /* ViewController.swift */; };
@@ -22,11 +27,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D1FDDC024E51BF100F8E19E /* UFUnion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFUnion.swift; sourceTree = "<group>"; };
+		9D1FDDC224E528AD00F8E19E /* UFWeightFind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFWeightFind.swift; sourceTree = "<group>"; };
+		9D1FDDC424E52E7D00F8E19E /* UFWeightUnion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFWeightUnion.swift; sourceTree = "<group>"; };
+		9D1FDDC624E531D200F8E19E /* UFWeightCompression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFWeightCompression.swift; sourceTree = "<group>"; };
 		9D4C041E24AD85AF006F78C7 /* AVLTree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AVLTree.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9D4C041F24AD8CDF006F78C7 /* AVLTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVLTree.swift; sourceTree = "<group>"; };
 		9D4C042024AD8CDF006F78C7 /* AVLNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVLNode.swift; sourceTree = "<group>"; };
 		9D50A60A24E2877200951747 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		9D50A60D24E28FA500951747 /* RedBlackTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBlackTree.swift; sourceTree = "<group>"; };
+		9D5B823B24E5100500D9F64A /* UFFind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFFind.swift; sourceTree = "<group>"; };
 		9D630EE824AC3807000C6DDF /* BinaryTree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BinaryTree.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9DBC126424E39414005B77BE /* RedBlackNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBlackNode.swift; sourceTree = "<group>"; };
 		9DCF358D24A1E8E000BD581D /* Tree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tree.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +99,11 @@
 		9DBC126624E3CD22005B77BE /* UnionFind */ = {
 			isa = PBXGroup;
 			children = (
+				9D5B823B24E5100500D9F64A /* UFFind.swift */,
+				9D1FDDC024E51BF100F8E19E /* UFUnion.swift */,
+				9D1FDDC224E528AD00F8E19E /* UFWeightFind.swift */,
+				9D1FDDC424E52E7D00F8E19E /* UFWeightUnion.swift */,
+				9D1FDDC624E531D200F8E19E /* UFWeightCompression.swift */,
 			);
 			path = UnionFind;
 			sourceTree = "<group>";
@@ -177,6 +192,7 @@
 				TargetAttributes = {
 					9DCF358C24A1E8E000BD581D = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 				};
 			};
@@ -218,9 +234,14 @@
 			files = (
 				9DCF35A624A1E95700BD581D /* Trie.swift in Sources */,
 				9DCF35A924A1EBCA00BD581D /* Tree.swift in Sources */,
+				9D1FDDC124E51BF100F8E19E /* UFUnion.swift in Sources */,
+				9D1FDDC524E52E7D00F8E19E /* UFWeightUnion.swift in Sources */,
 				9DCF359524A1E8E000BD581D /* ViewController.swift in Sources */,
 				9D4C042224AD8CDF006F78C7 /* AVLNode.swift in Sources */,
 				9D50A60B24E2877200951747 /* BinarySearch.swift in Sources */,
+				9D1FDDC324E528AD00F8E19E /* UFWeightFind.swift in Sources */,
+				9D5B823C24E5100500D9F64A /* UFFind.swift in Sources */,
+				9D1FDDC724E531D200F8E19E /* UFWeightCompression.swift in Sources */,
 				9DBC126524E39414005B77BE /* RedBlackNode.swift in Sources */,
 				9D50A60E24E28FA500951747 /* RedBlackTree.swift in Sources */,
 				9DCF359124A1E8E000BD581D /* AppDelegate.swift in Sources */,
@@ -368,6 +389,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SMLL9MTR8D;
 				INFOPLIST_FILE = Tree/Info.plist;
@@ -377,6 +399,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ccp.numberInput.Tree;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -386,6 +409,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SMLL9MTR8D;
 				INFOPLIST_FILE = Tree/Info.plist;
